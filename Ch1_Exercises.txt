@@ -1,0 +1,40 @@
+***********************************************
+1.1.2 Describe what happens if you omit the following in HelloWorld.java :
+public
+    The program compiles successfully
+static
+        The program compiles successfully, but does not execute.
+           "Error: Main method is not static" is returned
+void
+    A compile-time error is thrown.
+        "invalid methd declaration"
+args
+    A compile-time error is thrown.
+    "identifier expected"    
+***********************************************
+
+1.1.4 Describe what happens if you try to execute UseArgument with each of the
+following command lines:
+a. java UseArgument java
+        "Hi Java. How are you"
+b. java UseArgument @!&^%
+        Bash. event not found??
+c. java UseArgument 1234
+        Hi 1234. How are you?
+d. java UseArgument.java Bob
+        Expecting a class file..
+        Error: Could not find or load main class UseArgument.java
+e. java UseArgument Alice Bob
+    Only the first command-line argument is considered. The second one is discarded. since it's not used.
+    Hi Alice. How are you?
+***********************************************
+1.2.5
+The exclusive or operator ^ for boolean operands is defined to be true if
+they are different, false if they are the same. Give a truth table for this function.
+
+a       b       a ^ b
+true    true    false
+true    false   true
+false   false   true
+false   true    false
+***********************************************
